@@ -906,8 +906,36 @@ summary::marker {
     }
 
     .section {
-        height: 25vh;
+        height: 100vh;
+        flex-direction: column;
     }
+    .sec-left {
+        height: 18%;
+        width: 100vw;
+        padding: 3vh 5vh;
+    }
+    .sec-right {
+        height: 100%;
+        width: 90vw;
+    }
+    
+    .sec-right img {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .sec-right video {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity ease 0.1s;
+    }
+    
 
     .sec-left h2 {
         font-size: 5vw;
