@@ -906,7 +906,7 @@ summary::marker {
     }
 
     .section {
-        height: 100vh;
+        height: 50vh;
         flex-direction: column;
     }
     .sec-left {
@@ -920,20 +920,14 @@ summary::marker {
     }
     
     .sec-right img {
-        height: 50%;
+        height: 60%;
         width: 100%;
         object-fit: cover;
     }
     
     .sec-right video {
-        height: 50%;
+        height: 60%;
         width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-        opacity: 0;
-        transition: opacity ease 0.1s;
     }
     
 
@@ -1001,7 +995,9 @@ summary::marker {
     .page6-content .right-6 p {
         font-size: 2.2vw;
     }
-
+    .page6-bottom{
+        height: 40vh;
+    }
     .btm6-parts h5 {
         font-size: 2.4vw;
         margin-bottom: 3vh;
