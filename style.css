@@ -893,7 +893,16 @@ summary::marker {
 
     .page2 {
         height: 50vh;
-        padding: 5vw 10.5vw;
+        padding: 9vw 10.5vw;
+        flex-direction:column;
+    }
+    .page2-left{
+        flex-direction:row;
+        height:23%;
+        width:85%;
+    }
+    .page2-right {
+        width: 86%;
     }
 
     .page3 {
