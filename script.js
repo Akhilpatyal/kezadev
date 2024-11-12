@@ -209,12 +209,12 @@ function Page6Animation() {
 
 
 
-// locomotiveAnimation()
+locomotiveAnimation()
 
-// navAnimation()
-// page2animation();
+navAnimation()
+page2animation();
 
-// page3video()
-// Page6Animation()
+page3video()
+Page6Animation()
 
-// loadingAnimation()
+loadingAnimation()
