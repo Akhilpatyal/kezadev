@@ -1148,14 +1148,7 @@ summary::marker {
 
 @media (min-height:676px) and (max-width: 1024px) {
 
-    /* navbar */
-
-    /* #nav-bottom {
-        margin-left: 36px;
-        top: 16vh;
-        display: none;
-    }
-*/
+ 
     nav {
         height: 7vh;
         width: 100vw;
